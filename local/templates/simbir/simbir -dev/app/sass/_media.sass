@@ -1,0 +1,136 @@
+
+
+@media (max-width: 1300px)
+	.nav
+		&__item
+			margin: 0 6px
+@media (max-width: 1200px)
+	.header
+		&__logo
+			& img
+				width: 140px
+
+@media (max-width: 992px)
+	.header
+		&-wrap
+			justify-content: flex-end
+		&__nav
+			display: block
+			position: fixed
+			right: -280px
+			top: 2px
+			height: 100%
+			background: #fff
+			width: 280px
+			transition: right .2s
+			&.opened
+				right: 0
+				transition: right .2s
+		&__logo
+			justify-self: flex-start
+			flex: 1
+		&__callback-btn
+			margin-right: 20px
+		&__mobile-menu
+			display: block
+			&_close
+				display: block
+	.nav
+		flex-direction: column
+		align-items: flex-start
+		padding: 100px 15px 50px 30px
+		&__item
+			margin: 0 6px
+			margin: 10px 0
+		&__link
+			color: #000
+	.news
+		&__list
+			justify-content: center
+	.blog
+		&__content
+			flex-direction: column
+		&__text
+			order: 1
+	.footer
+		&__contacts
+			flex-wrap: wrap
+		&__copyright
+			order: 1
+			min-width: 100%
+@media (max-width: 767px)
+	.btn
+		font-size: 14px
+	.title
+		&_white
+			color: #fff
+	.header
+		&__phone
+			& a
+				font-size: 14px
+	
+	.man
+		flex-direction: column
+		align-items: center
+		text-align: center
+		margin-bottom: 50px
+		&__photo
+			margin-bottom: 15px
+		&__name
+			margin-bottom: 15px
+			color: #fff
+			&_black
+				color: #1d1d1b
+		&__email
+			color: #fff
+	.c-form
+		padding-right: 15px
+		padding-left: 15px
+		&__input
+			width: 100%
+	.callback
+		&__form
+			padding: 40px 0 0
+			border: 0
+
+		&__men
+			background-color: #515767
+			align-items: center
+			justify-content: center
+			flex-direction: column
+			padding: 25px 0
+	.contact
+		margin-bottom: 25px
+	.footer
+		&-wrap
+			padding: 25px 50px
+		&__contacts
+			flex-direction: column
+			align-items: flex-start
+		&__copyright
+			order: 1
+			margin-top: 25px
+			align-self: center
+
+@media (max-width: 490px)
+	.header
+		&__callback-btn
+			display: none
+		&__phone
+			display: none
+	
+
+
+	
+	
+	
+	
+	
+
+
+	
+
+
+	
+	
+
